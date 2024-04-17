@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-</head>
-<body>
+  </head>
+  <body>
     <h4 style="background-color: crimson;">Contact:</h4>
-    <p style="font-size: small;"><a href="mailto: sahadsahil720@gmail.com">SEND MAIL</a></p>
+    <p style="font-size: small;"><a href="mailto: sahadsahil720@gmail.com">SEND
+        MAIL</a></p>
+
     <h5>Phone: 01996939927</h5>
     <h4>Contact Form</h4>
     <!-- <input type="0"> -->
 
     <form action="Contact.html">
+      <div>
+        <label for="Name">Your Name</label>
         <div>
-              <label for="Name">Your Name</label>
-              <div>
-                <input type="text">
-              </div>
+          <input type="text">
         </div>
+      </div>
+      <div>
+        <label for="Name">Your Email</label>
         <div>
-              <label for="Name">Your Email</label>
-              <div>
-                <input type="email" >
-              </div>
+          <input type="email">
         </div>
+      </div>
+      <div>
+        <label for="Name">Massage</label>
         <div>
-              <label for="Name">Massage</label>
-              <div>
-                <textarea name="Massage"  cols="30" rows="5px" maxlength="100" required></textarea>  
-              </div>
+          <textarea name="Massage" cols="30" rows="5px" maxlength="100"
+            required></textarea>
         </div>
-        <div>
-            <button>Submit</button>
-        </div>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+      <div>
+        Are You Intrested? <input type="checkbox" name="YES OR NO" id>
+      </div>
+      <div>
+        Gender: Male <input type="radio" name="Gender"> Female <input
+          type="radio" name="Gender">
+      </div>
+      <div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+      </div>
     </form>
 
-
-</body>
+  </body>
 </html>
