@@ -18,19 +18,19 @@
       <div>
         <label for="Name">Your Name</label>
         <div>
-          <input type="text">
+          <input type="text" name="My Name" id="Name">
         </div>
       </div>
       <div>
-        <label for="Name">Your Email</label>
+        <label for="Email">Your Email</label>
         <div>
-          <input type="email">
+          <input type="email" name="My Email" id="Email">
         </div>
       </div>
       <div>
         <label for="Name">Massage</label>
         <div>
-          <textarea name="Massage" cols="30" rows="5px" maxlength="100"
+          <textarea name="Massage" cols="30" rows="15px" maxlength="100"
             required></textarea>
         </div>
       </div>
@@ -38,7 +38,8 @@
         <button>Submit</button>
       </div>
       <div>
-        Are You Intrested? <input type="checkbox" name="YES OR NO" id>
+        <label for="Intrested">Are You Intrested?</label> 
+        <input type="checkbox" name="YES OR NO" id="Intrested">
       </div>
       <div>
         Gender: Male <input type="radio" name="Gender"> Female <input
@@ -48,6 +49,15 @@
         <input type="submit" value="submit">
         <input type="reset" value="reset">
       </div>
+      <div>
+      <label for="CC">Chosen Country</label>
+      <select name="Choose" id="CC">
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+      <option value="RU">RU</option>
+      <option value="BD">BD</option>
+    </select>
+    </div>
     </form>
 
   </body>
